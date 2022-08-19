@@ -1,0 +1,337 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+header {
+    border-top: 4px solid #0000AA;
+    border-bottom: 1.5px solid #EEEEEE;
+}
+
+header > div > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.8rem;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+main > div > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.8rem;
+}
+
+footer {
+    border-top: 1.5px solid #EEEEEE;
+}
+
+footer > div > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3.6rem 1.8rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #0000AA;
+}
+
+/* fonts */
+
+h1 {
+    margin: 1.8rem 0;
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 u {
+    text-decoration-color: #0000AA;
+}
+
+h2 {
+    margin: 3.6rem 0;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 1.8rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 1.8rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* div row */
+
+div.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* div benefices */
+
+div.benefices {
+    max-width: 40%;
+    margin: 1.8rem 0;
+    padding: 1.8rem;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+div.benefices i {
+    display: block;
+    margin: 1.8rem 0 3.6rem 0;
+    font-size: 4rem;
+    text-align: center;
+    color: #0000AA;
+}
+
+/* div new */
+
+div.news {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.8rem 0;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+div.news > div {
+    margin: 0 1rem;
+}
+
+div.news i {
+    font-size: 4rem;
+    color: #0000AA;
+}
+
+/* div steps */
+
+.steps {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps h4 {
+    color: #0000AA;
+}
+
+.steps-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8rem;
+    width: 10%;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0000AA;
+    border-radius: 15px;
+}
+
+.steps-number-green {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8rem;
+    width: 10%;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00AA00;
+    border-radius: 15px;
+}
+
+.steps-number i, .steps-number-green i {
+    margin-left: 0.4rem;
+}
+
+/* div faq */
+
+div#faq {
+    background-color: #F4F5F7;
+}
+
+div#faq details {
+    max-width: 75%;
+    margin: 1rem auto;
+    padding: 0.4rem 1.6rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+div#faq summary {
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0000aa;
+}
+
+div#faq p {
+    margin: 1rem 0 1rem 0;
+}
+
+/* div colors */
+
+.greenbg {
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #00AA00, #006600);
+}
+
+.bluebg {
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #0000AA, #000066)
+}
+
+.graybg {
+    color: #000000;
+    background-color: #F4F5F7;
+}
+
+.graybg hr {
+    max-width: 50%;
+    margin: 3.6rem auto;
+    border-top: 2px solid #CCCCCC;
+}
+
+/* colors */
+
+.green {
+    color: #00AA00 !important;
+}
+
+/* img */
+
+img {
+    display: block;
+    margin: 1.8rem auto;
+    max-width: 100%;
+}
+
+/* btns */
+
+a.btn-wpp {
+    display: block;
+    max-width: 50%;
+    margin: 3.6rem auto 1.8rem auto;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #00AA00;
+    border-radius: 10px;
+}
+
+a.btn-wpp2 {
+    display: block;
+    max-width: 50%;
+    margin: 3.6rem auto 1.8rem auto;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #00AA00;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* hacks */
+
+.tcenter {
+    text-align: center;
+}
+
+.mt0 {
+    margin-top: 0 !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.mb18 {
+    margin-bottom: 1.8rem !important;
+}
+
+.mb18n {
+    margin-bottom: -1.8rem;
+}
+
+.mt36 {
+    margin-top: 3.6rem;
+}
+
+.mt60n {
+    margin-top: -6rem;
+}
+
+.mt60n {
+    margin-top: -6rem;
+}
+
+.mb60 {
+    margin-bottom: 6rem;
+}
+
+.p0 {
+    padding: 0;
+}
+
+@media (max-width:500px) {
+
+div.row2 {
+    flex-direction: column;
+}
+
+div.benefices {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.steps {
+    justify-content: flex-start;
+}
+
+}
