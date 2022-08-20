@@ -55,6 +55,12 @@ footer p.institutional {
     font-size: 1.2rem;
 }
 
+hr {
+    max-width: 50%;
+    margin: 3.6rem auto;
+    border-top: 2px solid #CCCCCC;
+}
+
 /* fonts */
 
 h1 {
@@ -211,6 +217,34 @@ div#faq summary {
 
 div#faq p {
     margin: 1rem 0 1rem 0;
+}
+
+div#faq hr {
+    max-width: 50%;
+    margin: 3.6rem auto;
+    border-top: 2px solid #CCCCCC;
+}
+
+/* div questions */
+
+div.questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.8rem auto;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #CCCCCC;
+}
+
+div.questions > div {
+    margin: 0 1rem;
+}
+
+div.questions i {
+    font-size: 4rem;
+    color: #0000AA;
 }
 
 /* div colors */
